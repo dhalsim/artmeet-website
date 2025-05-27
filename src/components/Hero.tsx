@@ -1,9 +1,11 @@
-
 import { Button } from "@/components/ui/button";
+import { useTranslation } from "react-i18next";
 
 const Hero = () => {
+  const { t } = useTranslation(undefined, { keyPrefix: "hero" });
+  
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-900 via-purple-800 to-orange-600 text-white relative overflow-hidden">
+    <section id="home" className="min-h-screen pt-24 flex items-center justify-center bg-gradient-to-br from-purple-900 via-purple-800 to-orange-600 text-white relative overflow-hidden">
       <div className="absolute inset-0 bg-black/20"></div>
       
       {/* Animated background elements */}
@@ -13,16 +15,14 @@ const Hero = () => {
       
       <div className="container mx-auto px-4 text-center relative z-10">
         <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
-          EMERGE
+          {t('ArtMeet 2025')}
           <span className="block text-orange-400 text-4xl md:text-6xl mt-2">
-            Art Festival 2024
+            {t('Art Festival 2025')}
           </span>
         </h1>
         
         <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto opacity-90 animate-fade-in delay-300">
-          Where contemporary art meets social consciousness. 
-          Join us for three days of powerful exhibitions, thought-provoking talks, 
-          and transformative experiences.
+          {t('Where contemporary art meets social consciousness. Join us for three days of powerful exhibitions, thought-provoking talks, and transformative experiences.')}
         </p>
         
         <div className="space-y-4 md:space-y-0 md:space-x-4 md:flex md:justify-center animate-fade-in delay-500">
@@ -30,19 +30,19 @@ const Hero = () => {
             size="lg" 
             className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 text-lg font-semibold transition-all duration-300 hover:scale-105"
           >
-            Explore Events
+            {t('Explore Events')}
           </Button>
           <Button 
             size="lg" 
             variant="outline" 
-            className="border-white text-white hover:bg-white hover:text-purple-900 px-8 py-3 text-lg font-semibold transition-all duration-300 hover:scale-105"
+            className="border-2 border-white/80 bg-white/10 backdrop-blur-sm text-white hover:bg-white hover:text-purple-900 px-8 py-3 text-lg font-semibold transition-all duration-300 hover:scale-105"
           >
-            Get Tickets
+            {t('Get Tickets')}
           </Button>
         </div>
         
         <div className="mt-12 text-sm opacity-75 animate-fade-in delay-700">
-          September 15-17, 2024 • Downtown Cultural District
+          {t('September 15-17, 2024 • Downtown Cultural District')}
         </div>
       </div>
     </section>
