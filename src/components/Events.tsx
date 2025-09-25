@@ -66,7 +66,7 @@ const Events = () => {
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {/* <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {events.map((event, index) => (
             <Card key={index} className="overflow-hidden hover:shadow-xl transition-all duration-300 hover:scale-105">
               <div className="h-48 bg-gradient-to-br from-purple-200 to-orange-200 relative overflow-hidden">
@@ -101,7 +101,7 @@ const Events = () => {
               </div>
             </Card>
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );

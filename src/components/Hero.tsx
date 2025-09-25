@@ -25,7 +25,7 @@ const Hero = () => {
           {t('Where contemporary art meets social consciousness. Join us for three days of powerful exhibitions, thought-provoking talks, and transformative experiences.')}
         </p>
         
-        <div className="space-y-4 md:space-y-0 md:space-x-4 md:flex md:justify-center animate-fade-in delay-500">
+        <div className="space-y-4 md:space-y-0 space-x-4 md:flex md:justify-center animate-fade-in delay-500">
           <Button 
             size="lg" 
             className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 text-lg font-semibold transition-all duration-300 hover:scale-105"

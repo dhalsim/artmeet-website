@@ -43,7 +43,7 @@ const Navigation = () => {
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
             <img
-              src={getAssetPath("logo.png")}
+              src={getAssetPath("logo-black-bg.png")}
               alt="ARTMEET Logo"
               className="h-[72px] w-auto"
             />
