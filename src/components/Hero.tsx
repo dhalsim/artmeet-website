@@ -38,13 +38,8 @@ const Hero = () => {
         <img
           src={imageSrc}
           alt="Hero"
-          className={`w-full ${isPortrait ? 'object-cover' : 'object-contain'} ${imageLoaded ? '' : 'opacity-0'}`}
+          className={`w-full object-contain ${imageLoaded ? '' : 'opacity-0'}`}
           onLoad={() => setImageLoaded(true)}
-          style={{ 
-            height: isPortrait ? '680px' : '60vh',
-            maxHeight: isPortrait ? '680px' : '800px',
-            minHeight: isPortrait ? '680px' : '400px'
-          }}
         />
       </div>
     </section>

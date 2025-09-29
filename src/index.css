@@ -157,3 +157,8 @@
 html {
   font-family: arboria, sans-serif;
 }
+
+/* Scroll padding for fixed navigation */
+html {
+  scroll-padding-top: 120px; /* Adjust based on your navigation height */
+}
