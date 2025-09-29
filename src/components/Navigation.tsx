@@ -17,9 +17,7 @@ const Navigation = () => {
   const navItems = [
     { name: "Home", href: "#home" },
     { name: "About", href: "#about" },
-    { name: "Events", href: "#events" },
-    { name: "Editions", href: "#editions" },
-    { name: "Contact", href: "#contact" },
+    { name: "Events", href: "#events" }
   ];
 
   const languages = [
@@ -43,14 +41,14 @@ const Navigation = () => {
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
             <img
-              src={getAssetPath("logo-black-bg.png")}
+              src={getAssetPath("logo-white-bg.png")}
               alt="ARTMEET Logo"
               className="h-[72px] w-auto"
             />
           </div>
           
-          {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center">
+          {/* Desktop Navigation (>=540px) */}
+          <div className="nav-desktop items-center">
             <div className="space-x-8">
               {navItems.map((item) => (
                 <a
@@ -86,18 +84,18 @@ const Navigation = () => {
             </div>
           </div>
 
-          {/* Mobile Menu Button */}
+          {/* Mobile Menu Button (<540px) */}
           <button
-            className="md:hidden"
+            className="nav-mobile"
             onClick={() => setIsOpen(!isOpen)}
           >
             {isOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>
 
-        {/* Mobile Navigation */}
+        {/* Mobile Navigation (<540px) */}
         {isOpen && (
-          <div className="md:hidden py-4 border-t border-gray-100">
+          <div className="nav-mobile py-4 border-t border-gray-100">
             {navItems.map((item) => (
               <a
                 key={item.name}
