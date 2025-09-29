@@ -153,3 +153,7 @@
     @apply italic text-white/90 flex-1;
   }
 }
+
+html {
+  font-family: arboria, sans-serif;
+}

@@ -43,7 +43,7 @@ const Navigation = () => {
             <img
               src={getAssetPath("logo-white-bg.png")}
               alt="ARTMEET Logo"
-              className="h-[72px] w-auto"
+              className="h-[96px] w-auto"
             />
           </div>
           
