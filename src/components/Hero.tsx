@@ -5,7 +5,7 @@ const Hero = () => {
   const videoRef = useRef<HTMLVideoElement>(null);
 
   const handleVideoLoad = () => {
-    setIsLoading(false);
+    setIsLoading(false); // empty comment
   };
 
   return (
