@@ -122,36 +122,6 @@
 }
 
 @layer components {
-  /* Events page badge styles */
-  .events-badge-group {
-    @apply flex flex-col gap-1 text-black;
-  }
-  .events-badge-title {
-    @apply inline-block self-start bg-white px-4 text-lg md:text-xl font-semibold;
-  }
-  .events-badge-subtitle {
-    @apply inline-block self-start bg-white px-4 text-lg md:text-xl mb-4 font-light;
-  }
-
-  /* Events page item styles */
-  .event-item {
-    @apply border border-white p-4;
-  }
-  .event-item__venue {
-    @apply tracking-wide font-semibold;
-  }
-  .event-item__row {
-    @apply mt-2 flex items-start gap-3;
-  }
-  .event-item__time {
-    @apply w-16 shrink-0 whitespace-nowrap;
-  }
-  .event-item__dash {
-    @apply hidden sm:block w-16 md:w-24 border-t border-white mt-3 shrink-0;
-  }
-  .event-item__desc {
-    @apply italic text-white/90 flex-1;
-  }
 }
 
 html {

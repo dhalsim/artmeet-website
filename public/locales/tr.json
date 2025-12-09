@@ -3,15 +3,16 @@
     "ArtMeet 2025": "ArtMeet 2025",
     "Art Festival 2025": "Sanat Festivali 2025",
     "Where contemporary art meets social consciousness. Join us for three days of powerful exhibitions, thought-provoking talks, and transformative experiences.": "Çağdaş sanatın toplumsal bilinçle buluştuğu yer. Güçlü sergiler, düşündürücü konuşmalar ve dönüştürücü deneyimler için üç günlük etkinliğimize katılın.",
-    "Explore Events": "Etkinlikleri Keşfet",
     "Get Tickets": "Bilet Al",
     "September 15-17, 2024 • Downtown Cultural District": "15-17 Eylül 2024 • Şehir Merkezi Kültür Bölgesi"
   },
   "navigation": {
     "Home": "Ana Sayfa",
     "About": "Hakkında",
-    "Events": "Etkinlikler",
     "Editions": "Edisyonlar",
     "Contact": "İletişim"
+  },
+  "about": {
+    "text": "ArtMeet, sanat, ekoloji ve kent kültürü arasında bir buluşma alanıdır. Her edisyonda güncel toplumsal sorular sorar, yeni ilişkiler ve ihtimaller arar. Sanatçılar, araştırmacılar ve toplulukları bir araya getirerek ortak üretim ve düşünme alanları açar. Geçmişin izleri ve bugünün krizleri arasında, sanat yoluyla yeni bir gelecek hayal etmeye davet eder. ArtMeet, kentte nefes almanın ve birlikte yaşamanın yollarını arar."
   }
 } 
